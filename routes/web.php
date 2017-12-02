@@ -16,7 +16,7 @@ Route::group(['namespace' => 'Front'], function(){
     ]);
 });
 
-//*** Admin
+//*** Adminka
 Route::group([
     //'prefix'     => 'admin',
     'namespace'  => 'Admin',
