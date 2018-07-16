@@ -22,7 +22,6 @@ Route::group([
     'namespace'  => 'Admin',
     //'middleware' => 'auth'
 ], function(){
-
     Route::get('admin/index', [
         'as'   => 'admin.index',
         'uses' => 'IndexController@index'

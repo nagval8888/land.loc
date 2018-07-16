@@ -1,5 +1,5 @@
 @if(isset($clients) && is_object($clients))
-<section class="page_section" id="clients"><!--client-->
+<section class="page_section" id="clients">
     <h2>Clients</h2>
     <div class="client_logos">
         <div class="container">
@@ -14,5 +14,5 @@
             </ul>
         </div>
     </div>
-</section><!--/client-->
+</section>
 @endif

@@ -1,5 +1,4 @@
 @if(isset($services) && is_object($services))
-<!--Service-->
 <section  id="services">
     <div class="container">
         <h2>Services</h2>
@@ -24,5 +23,4 @@
         </div>
     </div>
 </section>
-<!--Service-->
 @endif
